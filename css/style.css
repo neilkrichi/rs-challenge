@@ -1,0 +1,49 @@
+@font-face {
+    font-family: TiemposHeadline;
+    src: url(./fonts/th/TiemposHeadline-Regular.otf);
+}
+
+@font-face {
+    font-family: TiemposHeadline;
+    src: url(./fonts/th/TiemposHeadline-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: TiemposText;
+    src: url(./fonts/tt/TiemposText-Regular.otf);
+}
+
+@font-face {
+    font-family: TiemposText;
+    src: url(./fonts/tt/TiemposText-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: AlrightSans;
+    src: url(./as/AlrightSans-Regular.otf);
+}
+
+@font-face {
+    font-family: AlrightSans;
+    src: url(./fonts/as/AlrightSans-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: AlrightSans;
+    src: url(./fonts/fontsas/AlrightSans-Bold.otf);
+    font-weight: bold;
+}
+
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-family: AlrightSans !important;
+  font-weight: 500;
+}
