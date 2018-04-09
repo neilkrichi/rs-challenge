@@ -1,49 +1,308 @@
 @font-face {
-    font-family: TiemposHeadline;
-    src: url(./fonts/th/TiemposHeadline-Regular.otf);
+    font-family: 'TiemposHeadline';
+    src: url(./fonts/th/TiemposHeadline-Regular.otf) format('opentype');
 }
 
 @font-face {
-    font-family: TiemposHeadline;
-    src: url(./fonts/th/TiemposHeadline-Medium.otf);
+    font-family: 'TiemposHeadline';
+    src: url(./fonts/th/TiemposHeadline-Medium.otf)format('opentype');
     font-weight: 500;
 }
 
 @font-face {
-    font-family: TiemposText;
-    src: url(./fonts/tt/TiemposText-Regular.otf);
+    font-family: 'TiemposText';
+    src: url(./fonts/tt/TiemposText-Regular.otf) format('opentype');
 }
 
 @font-face {
-    font-family: TiemposText;
-    src: url(./fonts/tt/TiemposText-Medium.otf);
+    font-family: 'TiemposText';
+    src: url(./fonts/tt/TiemposText-Medium.otf) format('opentype');
     font-weight: 500;
 }
 
 @font-face {
-    font-family: AlrightSans;
-    src: url(./as/AlrightSans-Regular.otf);
+    font-family: 'AlrightSans';
+    src: url(./fonts/as/AlrightSans-Regular.otf) format('opentype');
 }
 
 @font-face {
-    font-family: AlrightSans;
-    src: url(./fonts/as/AlrightSans-Medium.otf);
+    font-family: 'AlrightSans';
+    src: url(./fonts/as/AlrightSans-Medium.otf) format('opentype');
     font-weight: 500;
 }
 
 @font-face {
-    font-family: AlrightSans;
-    src: url(./fonts/fontsas/AlrightSans-Bold.otf);
+    font-family: 'AlrightSans';
+    src: url(./fonts/as/AlrightSans-Bold.otf) format('opentype');
     font-weight: bold;
 }
 
 
-body {
+body p {
   margin: 0;
+  font-family: AlrightSans !important;
+}
+
+body h1, h2, h3, h4 {
+  color: #0a273c !important;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 50px;
+}
+
+.top-nav p {
+  margin: 7px 0px;
+}
+
+#first-section h1 {
+  font-family: 'TiemposText' !important;
+  font-size: 44px;
+  font-weight: normal;
+}
+
+#first-section p {
+  color: #85939e;
+  font-size: 14px;
+}
+
+#first-section .col-6 img {
+  width: 300px;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+}
+
+.jumbo {
+  padding: 50px;
+  width: 80%;
+  margin: 0px auto;
+}
+
+ .intro-text {
+  padding-top: 100px;
+}
+
+#team-pic {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+
+#second-section {
+  background-color: #f7f8f9;
+  text-align: center;
+}
+
+#traction-conf {
+  width: 80%;
+  background-color: #fff;
+  margin: 0% auto;
+  padding: 40px;
+}
+
+#traction-conf .col-3 div {
+  padding-top: 17px;
+  color: #85939e;
+}
+
+#traction-conf h4 {
+  font-family: 'TiemposHeadline';
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#traction-conf p {
+  font-size: 14px;
+}
+
+.underlined {
+  border-bottom: 1px dashed #85939e;
+}
+
+#action-tips {
+  padding: 50px 0px 40px 0px;
+}
+
+#action-tips h2 {
+  font-family: 'TiemposText';
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#action-tips p {
+  font-size: 14px;
+  color: #0a273c;
+}
+
+#action-tips .page-container h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#action-tips .page-container p {
+  font-size: 12px;
+  color: #85939e;
+}
+
+.justify-left {
+  text-align: left;
+}
+
+.page-container {
+  background-color: #fff;
+  margin: 25px auto;
+  text-align: left;
+  width: 80%;
+  padding: 30px;
+}
+
+.page-container .col-10 {
+  padding-left: 20px;
+}
+
+.page-container img {
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: 0px auto;
+}
+
+.blog {
+  padding: 40px 0px 60px 0px;
+}
+
+.blog h2 {
+  font-family: TiemposText;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.blog p {
+  font-size: 14px;
+  color: #0a273c;
+}
+
+.blogpost-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.blog-post {
+  width: 45%;
+  background-color: #fff;
+  padding-left: 5px 0px 10px 0px;
+}
+
+.blog-post img {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.blog-post .text {
   padding: 20px;
+  text-align: left;
+}
+
+.blog-post h3 {
+  font-family: 'TiemposHeadline';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.blog-post p {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #0a273c;
+  opacity: 0.73;
+}
+
+.cro {
+  padding: 20px 50px;
+  background-color: #ec5447;
+  text-align: center;
+  color: #fff;
+}
+
+.cro p {
+  font-size: 14px;
+  line-height: 1.36;
+}
+.cro span {
+  font-weight: 500;
+}
+
+.footer {
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #85939e;
+}
+
+.legal {
+  text-align: center;
+  padding: 40px 20px 70px 20px;
+}
+
+.legal span {
+  color: #0a273c;
+  display: inline;
+  padding: 0px 20px;
+}
+
+.legal p {
+  font-size: 12px;
+  color: #85939e;
+  padding-top: 20px;
+}
+
+.legal img {
+  width: 40px;
+  height: auto;
+  padding-top: 40px;
 }
 
 h1 {
   font-family: AlrightSans !important;
   font-weight: 500;
+  font-size: 44px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.red-text {
+  color: #ec5447;
+}
+
+.top-nav .red-text {
+  font-size: 10px;
+}
+
+.traction-text {
+  color: #60cbe2;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.read-more-text {
+  color: #60cbe2;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+hr {
+  margin: 0px !important;
 }
