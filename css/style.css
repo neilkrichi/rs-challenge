@@ -316,7 +316,7 @@ hr {
 @media screen and (max-width: 700px) {
   #first-section .col-md-6 img {
     width: 200px;
-    padding-top: 80px;
+    padding-top: 40px;
   }
 
   #first-section .jumbo {
