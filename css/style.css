@@ -68,7 +68,7 @@ body h1, h2, h3, h4 {
   font-size: 14px;
 }
 
-#first-section .col-6 img {
+#first-section .col-md-6 img {
   width: 300px;
   height: auto;
   text-align: center;
@@ -77,13 +77,11 @@ body h1, h2, h3, h4 {
 }
 
 .jumbo {
-  padding: 50px;
-  width: 80%;
-  margin: 0px auto;
+  padding: 50px 100px;
 }
 
  .intro-text {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 #team-pic {
@@ -250,6 +248,14 @@ body h1, h2, h3, h4 {
   color: #85939e;
 }
 
+.footer .left {
+  padding: 5px 0px;
+}
+
+.footer .socials i {
+  padding: 0px 5px;
+}
+
 .legal {
   text-align: center;
   padding: 40px 20px 70px 20px;
@@ -305,4 +311,20 @@ h1 {
 
 hr {
   margin: 0px !important;
+}
+
+@media screen and (max-width: 700px) {
+  #first-section .col-md-6 img {
+    width: 200px;
+    padding-top: 80px;
+  }
+
+  #first-section .jumbo {
+    padding: 0px 60px 60px 60px;
+  }
+
+  .intro-text {
+    padding-top: 50px;
+  }
+
 }
